@@ -1,20 +1,15 @@
-n=44
+N = 44
 
-
-for i in range(n):
-    
-    for j in range(n-1,i,-1):
+for i in range(N):
+    for j in range(N-1, i, -1):
         print(' ', end='')
-    
     for k in range(2*i+1):
         print('*', end='')
-    print() 
-
-for i in range(n-2,-1,-1):
-    for j in range(n-1,i,-1):
+    print()
+for i in range(N-2, -1, -1):
+    for j in range(N-1, i, -1):
         print(' ', end='')
-    
     for k in range(2*i+1):
-        print('*', end='')   
-    print('') 
+        print('*', end='')
+    print('')
     
